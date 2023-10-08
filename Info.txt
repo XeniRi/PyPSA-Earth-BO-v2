@@ -1,0 +1,10 @@
+To add the custom powerplant file you need to have it saved in the "data" folder and delete the "powerplants.csv" file in "resources". In the config you need to make the following changes (also refer to the uploaded config file):
+
+powerplants_filter: false
+custom_powerplants: replace
+estimate_renewable_capacities:
+    stats: false
+
+The CNDC report is the "memyres2021" file, there you will find the installed capacities and the demand projection. 
+
+Regarding the validation, it really is a big mess and I'm not entirely sure where I have saved what, so if you need anything specific (which I don't think you necessarily will) ask me for that.
